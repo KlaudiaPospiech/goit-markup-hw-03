@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--text-colorgi);
+  color: var(--text-color);
 }
 :root {
   --active-color: #2196f3;
