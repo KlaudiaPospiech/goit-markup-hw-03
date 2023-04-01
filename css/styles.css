@@ -11,6 +11,12 @@ body {
   --button-color: #f5f4fa;
   --studio-color: #000000;
 }
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .menu {
   font-weight: 500;
   font-size: 14px;
