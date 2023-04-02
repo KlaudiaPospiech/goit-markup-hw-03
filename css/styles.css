@@ -11,11 +11,19 @@ body {
   --button-color: #f5f4fa;
   --studio-color: #000000;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.section {
+  padding: 94px 0px 94px 0px;
 }
 .menu {
   font-weight: 500;
@@ -67,9 +75,7 @@ body {
   cursor: pointer;
 }
 .projects {
-  box-sizing: border-box;
   width: 370px;
-  height: 404px;
   background: var(--background-color);
   border: 1px solid #eeeeee;
 }
@@ -89,7 +95,6 @@ body {
 .footer-style {
   background: var(--main-color);
   width: 1600px;
-  height: 252px;
 }
 .none {
   text-decoration: none;
@@ -137,28 +142,23 @@ body {
   cursor: pointer;
 }
 .main-header {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--background-color);
+  max-width: 696px;
+  margin: 0px 0px 15px 0px;
 }
 .theme {
   width: 1600px;
-  height: 600px;
   background: var(--main-color);
 }
 .button-theme {
   position: absolute;
   width: 200px;
-  height: 50px;
   left: 700px;
   top: 430px;
   background: var(--active-color);
@@ -167,9 +167,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--background-color);
   border: none;
@@ -198,7 +195,6 @@ body {
 }
 .employees {
   width: 270px;
-  height: 368px;
   background: var(--background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
