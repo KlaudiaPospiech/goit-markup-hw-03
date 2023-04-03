@@ -18,9 +18,13 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
 .container {
-  width: 100%;
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -44,6 +48,18 @@ body {
 .contacts:active {
   color: var(--active-color);
 }
+.nav-list {
+  margin: 32px 0px 32px 93px;
+}
+.nav-list ul {
+  padding: 0px;
+}
+.nav-list li {
+  display: inline;
+}
+.nav-list li:nth-child(2) {
+  margin: 0px 46px 0px 46px;
+}
 .contacts {
   font-weight: 500;
   font-size: 14px;
@@ -52,6 +68,18 @@ body {
   color: var(--caption-color);
   cursor: pointer;
   text-decoration: none;
+}
+.header-contacts {
+  display: inline;
+}
+.header-contacts li {
+  margin: 0px 0px 0px 371px;
+}
+.header-contacts li:first-child {
+  margin: 0px 25px 0px 0px;
+}
+.header-contacts li:last-child {
+  margin: 0px 0px 0px 25px;
 }
 .button-filters {
   font-weight: 500;
@@ -168,9 +196,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 110px 0px;
+  gap: 30px;
   width: 1600px;
   background: var(--main-color);
+  padding-top: 200px;
+  padding-bottom: 210px;
 }
 .button-theme {
   width: 200px;
