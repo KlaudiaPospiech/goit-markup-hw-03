@@ -28,8 +28,28 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+.container-top {
+  margin: 0 auto;
+}
+.container-lorem {
+  margin: 0 auto;
+}
+.container-offer {
+  margin: 0 auto;
+}
+.container-team {
+  margin: 0 auto;
+}
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
 .section {
   padding: 94px 0px 94px 0px;
+}
+.section-what {
+  padding-top: 0px;
 }
 .menu {
   font-weight: 500;
@@ -126,10 +146,13 @@ ul {
   background: var(--main-color);
   width: 1600px;
 }
+.footer-style {
+  align-content: center;
+  justify-content: center;
+}
 .none {
   text-decoration: none;
   list-style: none;
-  padding: 0;
 }
 .none .menu {
   margin: 32px 0px 32px 93px;
@@ -167,6 +190,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--background-color);
   text-decoration: none;
+  padding: 10px 0px 60px 0px;
 }
 .footer-contacts:hover,
 .footer-contacts:focus,
@@ -192,10 +216,13 @@ ul {
   max-width: 696px;
   margin: 0px 0px 15px 0px;
 }
-.theme {
+.solutions {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 110px 0px;
+}
+.theme {
   gap: 30px;
   width: 1600px;
   background: var(--main-color);
@@ -249,6 +276,20 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+.offer-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px 15px 0px 15px;
+  gap: 30px;
+}
+.people {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-inline: 15px;
+  gap: 30px;
 }
 .employees {
   width: 270px;
