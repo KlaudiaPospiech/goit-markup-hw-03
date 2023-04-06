@@ -23,13 +23,17 @@ ul {
   padding: 0px;
 }
 .container {
-  max-width: 1200px;
   width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
 .container-top {
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border-bottom: 1px solid var(--border-color);
 }
 .container-lorem {
   margin: 0 auto;
@@ -39,6 +43,9 @@ ul {
 }
 .container-team {
   margin: 0 auto;
+}
+.team {
+  background-color: var(--button-color);
 }
 .container-footer {
   display: flex;
@@ -154,12 +161,6 @@ ul {
 .none .menu {
   margin: 32px 0px 32px 93px;
 }
-.logo .container {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  border-bottom: 1px solid var(--border-color);
-}
 .web {
   color: var(--active-color);
 }
@@ -271,18 +272,19 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding-bottom: 50px;
 }
 .offer-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   padding: 25px 15px 0px 15px;
   gap: 30px;
 }
 .people {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   padding-inline: 15px;
   gap: 30px;
 }
